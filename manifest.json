@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Editable Page Toggle",
+  "version": "1.0",
+  "description": "Toggle contentEditable on the body to freely edit page text.",
+  "permissions": ["activeTab", "scripting", "contextMenus"],
+  "action": {
+    "default_title": "Toggle Editable"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
